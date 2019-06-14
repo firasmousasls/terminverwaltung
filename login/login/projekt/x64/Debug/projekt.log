@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\ghazy\Desktop\Project1\login\projekt\Source.cpp(30,7): warning C4101:  'Data': unreferenced local variable
+C:\Users\ghazy\Desktop\Project1\login\projekt\Source.cpp(18,7): warning C4101:  'pointer': unreferenced local variable
+C:\Users\ghazy\Desktop\Project1\login\projekt\Source.cpp(69,48): warning C4474:  'printf' : too many arguments passed for format string
+C:\Users\ghazy\Desktop\Project1\login\projekt\Source.cpp(69,48): message :  placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\ghazy\Desktop\Project1\login\projekt\Source.cpp(73,47): warning C4474:  'printf' : too many arguments passed for format string
+C:\Users\ghazy\Desktop\Project1\login\projekt\Source.cpp(73,47): message :  placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  projekt.vcxproj -> C:\Users\ghazy\Desktop\Project1\login\x64\Debug\login.exe

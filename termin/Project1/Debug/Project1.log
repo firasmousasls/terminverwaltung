@@ -1,0 +1,9 @@
+﻿  Source.cpp
+c:\users\mousa\source\repos\project1\project1\source.cpp(75): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\mousa\source\repos\project1\project1\source.cpp(75): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+c:\users\mousa\source\repos\project1\project1\source.cpp(99): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\mousa\source\repos\project1\project1\source.cpp(99): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+c:\users\mousa\source\repos\project1\project1\source.cpp(110): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\mousa\source\repos\project1\project1\source.cpp(110): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+c:\users\mousa\source\repos\project1\project1\source.cpp(46): warning C4715: 'neuerTermin': not all control paths return a value
+  Project1.vcxproj -> C:\Users\Mousa\source\repos\Project1\Debug\Project1.exe

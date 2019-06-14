@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\ghazy\source\repos\Termin bearbeiten\Termin bearbeiten\Source.cpp(18,7): warning C4101:  'Data': unreferenced local variable
+C:\Users\ghazy\source\repos\Termin bearbeiten\Termin bearbeiten\Source.cpp(19,8): warning C4101:  'Token': unreferenced local variable
+  Termin bearbeiten.vcxproj -> C:\Users\ghazy\source\repos\Termin bearbeiten\Debug\Termin bearbeiten.exe
