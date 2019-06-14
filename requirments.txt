@@ -8,14 +8,15 @@ login.html    =>>           login.cgi
    ||
    ||
    neuer_termin.html,    termin_list.html, password_aendern.html  ===> password_aendern.cgi =>>> optionen.html   or login.html
-      ||                  ==      ||                   
-      ||                  ||      ||
-      ||                  ||      ||
-      ||                  ||      ||
-      ||                  ||      ||
-      ||                  ||      ||
-      ==                  ||      ==
-      termin_erstellen.cgi        termin_löschen.cgi, termin_bearbeiten.cgi
+      ||                  ==         ||                   
+      ||                  ||         ||
+      ||                  ||         ||
+      ||                  ||         ||
+      ||        termin_list.cgi      ||
+      ||                  ||         ||
+      ||                  ||         ||
+      ==                  ||         ==
+      termin_erstellen.cgi            termin_löschen.cgi, termin_bearbeiten.cgi
                                                           ||
                                                           ||
                                                           ||
