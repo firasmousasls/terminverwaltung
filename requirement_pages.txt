@@ -1,0 +1,161 @@
+optionen.html
+
+    <a href=".../neuer_termin.html"> </a>
+    <a href=".../termin_list.cgi"> </a>
+    <a href=".../password_aendern.cgi"> </a>
+
+
+
+neuer_termin.html
+      <form action=".../termin_erstellen.cgi">
+        <input type="date">  date</input>
+        <input type="time"> time </input>
+        <textarea> description</textarea>
+        <input type="submit"></input>
+      </form>
+
+
+
+
+termin_erstellen.cgi
+   int main()
+   {
+   cin>> Data;
+
+      f.write(date, time, description);
+
+
+
+        goTO(termin_erstellen.cgi);
+   }
+
+
+
+termin_list.cgi
+
+    int main()
+
+    {
+
+      file.read("termine.txt");
+
+          printf  or cout  je nach dem :D ;
+
+            printf("<table><tbody> <tr> <td> date </td> <td> Time</td> <td> description</td></tr>");
+                 loop for every line file.read
+                    {
+                    put in  variable id, date , time, description;
+                    printf("<tr> <td>") ;
+                    printf(date) ;
+                    printf("</td><td>") ;
+                    printf(time) ;
+                    printf("</td><td>") ;
+                    printf(description) ;
+                    printf("</td>") ;
+
+// edit Termin
+                    printf("<a  href='../termin_barbeiten.cgi?id=" +id+"'>bearbeiten</a>") ;
+
+     this could work, if query string exists in cgi (cpp)
+
+
+    other possiblity is to write
+                    printf("<form action='../termin_barbeiten.cgi'>
+                              <label>id</label>
+                              <input hidden="true"></input>
+                              <input type="submit"> bearbeiten</input>
+                            </form>
+                    ") ;
+
+// termin löschen  
+
+                    printf("<a  href='../termin_löschen.cgi?id=" +id+"'>löschen</a>") ;
+
+                    printf("<form action='../termin_löschen.cgi'>
+                              <label>id</label>
+                              <input hidden="true"></input>
+                              <input type="submit"> löschen</input>
+                            </form>
+                    ") ;
+
+
+                  printf("</tr></tbody> </table>");
+                    }   
+
+    }
+
+
+
+
+termin_bearbeiten.cgi
+        int main() {
+  //you should here get the id of the termin, to be edited
+      cin << Data;
+
+
+
+  //loop on the file to get the line, where id is equal to the one we received in the request DATA
+
+      line = fread(line, id == DATA.id)
+        printf("<form>")
+              printf("<input type=text>" + line.id+ "</input>") 
+              printf("<input type=date>" + line.date + "</input>") 
+              printf("<input type=time>" + line.timte+ "</input>") 
+              printf("<textarea >" + line.description+ "</texarea>") 
+
+              printf("<input type=submit> speichern" "</input>") 
+
+        printf("</form>")
+
+
+
+        }
+    
+
+
+
+termin_specichern.cgi
+        int main() {
+
+        cin << Data;
+
+
+        sameID;
+        newDate;
+        newTime;
+        newDescription;
+        
+
+    //get the line number where id is equal to the one we received in the request DATA
+
+    line = fread( line.id == sameID);
+
+    fwrite( same line, sameID, newDate, newTime, newDescription);
+
+
+
+
+      goTO(termin_list.cgi)
+        }
+
+
+
+termin_löschen .cgi 
+    int main() {
+      int main() {
+
+        cin << Data;
+
+
+          ID;
+
+
+delete the line where id is equal to the one we received in the request DATA
+          fdelete_line(line.id == ID)
+
+
+
+      goTO(termnin_list.cgi)
+      
+
+    }
